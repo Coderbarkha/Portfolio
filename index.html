@@ -1,252 +1,317 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Font Awesome CDN -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
 </head>
 <body>
-    <div class="menu">
-        <header>
-            <nav class="navbar">
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#education">Education</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#resume">Resume</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-        </header>
+  <div id="wrapper">
+    <div class="container">
+      <div class="navbar">
+        <div class="logo-container">
+          <img src="images/navlogo.png" alt="Logo " class="logo">
+          <div class="logo-text">arkha Thakkar</div>
+        </div>
+
+        <div class="nav-items">
+          <div><a href="#about">About Me</a></div>
+          <div><a href="#projects">Projects</a></div>
+          <div><a href="#skills">Skills</a></div>
+          <div><a href="#contactme">Contact Me</a></div>
+        </div>
+
+      </div>
     </div>
-    
-    <section id="home">
-        <div class="homemenu">
-            <div class="name">
-                <h1>I am <br>Barkha</h1>
-            </div>
-            <div class="myimg">
-                <img src="Barkha.jpeg" alt="Barkha">
-            </div>
+
+    <div class="hero-section">
+      <div class="faded-text"> Barkha</div>
+      <div class="hero-section-left">
+        <div class="hero-section-heading">
+           Hey there, 
+           <br>Barkha here. 
         </div>
-    </section>
-    
-    <section id="about">
-        <h2>About Me</h2>
-        <div class="about-container">
-            <div class="profile">
-                <img src="Barkha.jpeg" alt="Barkha">
-            </div>
-            <div class="aboutus">
-                <p>I am Barkha, a passionate programmer specializing in C++.</p>
-                <p>I am currently pursuing a Bachelor's in Computer Applications (BCA) with a strong interest in Data Structures & Algorithms (DSA), Artificial Intelligence (AI), and Web Development.</p>
-                <p>I am a quick learner and a team player. I love solving complex problems and improving my skills on LeetCode and CodeStudio.</p>
-                <p>My projects include an Expense Tracker, a Women's Safety Chatbot, and a Mental Health Assistant Application.</p>
-                <p>My goal is to bridge the gap between DSA, AI, and real-world applications to create impactful and scalable solutions.</p>
-            </div>
+        <div class=" hero-section-heading hero-section-sub-heading">
+          I am a <span class="role"></span>
         </div>
-    </section>
-        <!--Education section-->
-    <section id="education">
-        <h2>Education</h2>
-        <div class="timeline">
-            <div class="edu-item">
-                <h3>2022-2025</h3>
-                <p>Bachelor's of Computer Applications(BCA)</p>
-                <p>GVM Institute Of Technology And Management affiliated to DCRUST</p>
-            </div>
-            <div class="edu-item">
-                <h3>2019-2021</h3>
-                <p>Senior Secondary</p>
-                <p>G.V.M.Sr.Sec.School</p>
-            </div>
-            <div class="edu-item">
-                <h3>2019-2020</h3>
-                <p>Secondary</p>
-                <p>G.V.M.Sr.Sec.School</p>
-            </div>
+        <div class="hero-section-description">
+          My passion is to develop websites and this is my Portfolio website .Here you'll get to know about my journey as a Web Developer.
         </div>
-    </section>
+        <div class="btn-pink"><a href="https://www.linkedin.com/in/barkhathakkar/">Hire Me</a> </div>
+      </div>
+      <div class="hero-section-right">
+        <div class="absolute icons icon-dots">
+          <img src="images/dots.png" alt="dots">
+        </div>
+        <div class="absolute icons icon-cube">
+          <img src="images/cube.png" alt="dots">
+        </div>
+        <div class="absolute icons icon-circle">
+          <img src="images/circle.jfif" alt="dots">
+        </div>
+        <div class="absolute icons icon-zigzag">
+          <img src="images/zigzag.png" alt="dots">
+        </div>
+        <div class="user-image">
+          <img src="images/Barkha.jpeg" alt="dots">
+        </div>
+      </div>
+    </div>
+<!-- ABOUT SECTION -->
+<section id="about" class="about-section">
+  <div class="container">
+    <h2 class="section-title">About Me</h2>
+
+    <div class="about-content">
+      <div class="about-image">
+        <img src="images/Barkha.jpeg" alt="Barkha" />
+      </div>
+
+      <div class="about-text">
+        <h3>Hi, I'm <span class="highlight">Barkha</span></h3>
+        <p class="intro">
+          I’m a passionate <strong>Web Developer</strong> and <strong>Programmer</strong> who loves transforming ideas into interactive digital experiences. I thrive on creativity, clean code, and user-centric design.
+        </p>
+
+        <div class="info-block">
+          <h4>🔧 Technical Skills</h4>
+          <p>HTML, CSS, JavaScript, C++, DSA, Python, Tailwind CSS, Chart.js, VS Code, GitHub, Responsive Design, Debugging.</p>
+        </div>
+
+        <div class="info-block">
+          <h4>💡 Soft Skills</h4>
+          <p>Problem Solving, Time Management, Team Collaboration, Attention to Detail, Communication, Leadership.</p>
+        </div>
+
+        <div class="info-block">
+          <h4>🎯 Career Objective</h4>
+          <p>
+            My goal is to become a highly skilled full-stack developer, contribute to impactful projects, and grow in the tech industry by continuously upgrading my skills and exploring innovations.
+          </p>
+        </div>
+
+        <div class="info-block">
+          <h4>🎨 Interests & Hobbies</h4>
+          <p>
+             Reading Tech Blogs, Learning New Languages, Exploring AI Tools, Designing Websites, Music,Drawing, Meditation.
+          </p>
+        </div>
+
+        <div class="info-block summary-box">
+          <h4>🧠 Summary</h4>
+          <p>
+            Highly motivated, detail-oriented developer with a creative edge and a strong foundation in DSA and frontend technologies. I bring ideas to life with modern code and engaging UI.
+          </p>
+        </div>
+
+        <a href="Barkharesume.pdf" class="btn-glow">View Resume</a>
+      </div>
+    </div>
+  </div>
+</section>
+
     <!-- Projects Section -->
-<section id="projects">
-    <h2 class="section-title">Projects</h2>
-    <div class="projects-container">
-
-        <!-- Project 1: Expense Tracker -->
-        <div class="project-card">
-            <h3>Expense Tracker</h3>
-            <p class="tech-title">Tech Stack:</p>
-            <div class="tech-icons">
-                <img src="html5-brands-solid.svg" alt="HTML">
-                <img src="css3-alt-brands-solid.svg" alt="CSS">
-                <img src="js-brands-solid.svg" alt="JavaScript">
-                <img src="c++.png" alt="C++">
-                <img src="localstorage.png" alt="Local Storage">
+     <section id="projects">
+     <div class="project-section">
+      <h2 class="page-header">Projects</h2>
+      <div class="project-container">
+        <div class="project-card" id="project1">
+          <div class="project-number project-number-right">01</div>
+          <div class="project-content project-content-left">
+            <div class="project-skill-container">
+              <img  class="project-skill" src="images/html.png" alt="HTML">
+              <img  class="project-skill" src="images/css.png" alt="CSS">
+              <img  class="project-skill" src="images/javascript.png" alt="JavaScript">
             </div>
-            <p class="project-description">
-                A web app to track your expenses and manage your budget efficiently.
-            </p>
-            <a href="https://github.com/Coderbarkha/Expense-Tracker" class="project-link" target="_blank">
-                View on GitHub
-            </a>
-        </div>
-
-        <!-- Project 2: Mental Health Assistant -->
-        <div class="project-card">
-            <h3>Mental Health Assistant</h3>
-            <p class="tech-title">Tech Stack:</p>
-            <div class="tech-icons">
-                <img src="html5-brands-solid.svg" alt="HTML">
-                <img src="css3-alt-brands-solid.svg" alt="CSS">
-                <img src="js-brands-solid.svg" alt="JavaScript">
-                <img src="nodejs.png" alt="Node.js">
-                <img src="express.png" alt="Express.js">
-                <img src="mongodb.jfif" alt="MongoDB">
+            <h2 class="project-heading">MentalHealthAssistant</h2>
+            <div class="project-description">It is a web application that allows users to chat with chatbot and track their mood .
             </div>
-            <p class="project-description">
-                An AI-driven chatbot for tracking and improving mental health.
-            </p>
-            <a href="https://github.com/Coderbarkha/MentalHealthAssistant" class="project-link" target="_blank">
-                View on GitHub
-            </a>
+            <div class="btn-grp">
+              <button class="btn-pink btn-project"><a href="https://github.com/Coderbarkha">Read More</a></button>
+              <a href="https://github.com/Coderbarkha/MentalHealthAssistant" target="_blank">
+                <img src="images/github.png" class="icon"></i> 
+              </a>
+          </div>
+          </div>
         </div>
+      </div>
+     
 
-        <!-- Project 3: Task Management System -->
-        <div class="project-card">
-            <h3>Task Management System</h3>
-            <p class="tech-title">Tech Stack:</p>
-            <div class="tech-icons">
-                <img src="c++.png" alt="C++">
-                <img src="dsa.png" alt="DSA">
+       <div class="project-container">
+        <div class="project-card" id="project2">
+          <div class="project-number project-number-left">02</div>
+          <div class="project-content project-content-right">
+            <div class="project-skill-container">
+              <img  class="project-skill" src="images/html.png" alt="HTML">
+              <img  class="project-skill" src="images/css.png" alt="CSS">
+              <img  class="project-skill" src="images/javascript.png" alt="JavaScript">
             </div>
-            <p class="project-description">
-                A console-based application to manage and track tasks.
-            </p>
-            <a href="https://github.com/Coderbarkha/TaskManagement" class="project-link" target="_blank">
-                View on GitHub
-            </a>
-        </div>
-
-        <!-- Project 4: Chat Window Project -->
-        <div class="project-card">
-            <h3>Chat Window Project</h3>
-            <p class="tech-title">Tech Stack:</p>
-            <div class="tech-icons">
-                <img src="html5-brands-solid.svg" alt="HTML">
-                <img src="css3-alt-brands-solid.svg" alt="CSS">
-                <img src="js-brands-solid.svg" alt="JavaScript">
+            <h2 class="project-heading">FashionExplorerWebApp</h2>
+            <div class="project-description">A stylish and responsive web application built to explore fashion collections and trends.
             </div>
-            <p class="project-description">
-                A web-based chat interface for easy communication.
-            </p>
-            <a href="https://github.com/Coderbarkha/chatwindowproject" class="project-link" target="_blank">
-                View on GitHub
-            </a>
+            <div class="btn-grp">
+              <button class="btn-pink btn-project"><a  href="https://github.com/Coderbarkha">Read More</a></button>
+              <a href="https://github.com/Coderbarkha/FashionExplorerWebApplication" target="_blank">
+                <img src="images/github.png" class="icon"></i> 
+              </a>
+           </div>
+          </div>
         </div>
+      </div>
 
+    
+      <div class="project-container">
+        <div class="project-card" id="project3">
+          <div class="project-number project-number-right">03</div>
+          <div class="project-content project-content-left">
+            <div class="project-skill-container">
+              <img  class="project-skill" src="images/html.png" alt="HTML">
+              <img  class="project-skill" src="images/css.png" alt="CSS">
+              <img  class="project-skill" src="images/javascript.png" alt="JavaScript">
+            </div>
+            <h2 class="project-heading">ExpenseTrackerApp</h2>
+            <div class="project-description">It is a simple and intuitive web application that allows users to track their expenses.
+            </div>
+            <div class="btn-grp">
+              <button class="btn-pink btn-project" ><a href="https://github.com/Coderbarkha">Read More</a></button>
+              <a href="https://github.com/Coderbarkha/Expense-Tracker" target="_blank">
+                <img src="images/github.png" class="icon"></i> 
+              </a>
+             </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-container">
+        <div class="project-card" id="project4">
+          <div class="project-number project-number-left">04</div>
+          <div class="project-content project-content-right">
+            <div class="project-skill-container">
+              <img  class="project-skill" src="images/html.png" alt="HTML">
+              <img  class="project-skill" src="images/css.png" alt="CSS">
+              <img  class="project-skill" src="images/javascript.png" alt="JavaScript">
+            </div>
+            <h2 class="project-heading">To-doList</h2>
+            <div class="project-description">A simple application that helps users organize and manage their tasks efficiently.
+            </div>
+            <div class="btn-grp">
+              <button class="btn-pink btn-project"><a href="https://github.com/Coderbarkha">Read More</a></button>
+              <a href="https://github.com/Coderbarkha/To-Do-List" target="_blank">
+                <img src="images/github.png" class="icon"></i> 
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      
     </div>
+    </section>
+<!-- Skills Section -->
+<section class="skills-section" id="skills">
+  <h2 class="skills-header">My Skills</h2>
+  <div class="skills-container">
+    <div class="skill-card" data-skill="HTML"><img src="images/html.png" alt="HTML"><span>HTML</span></div>
+    <div class="skill-card" data-skill="CSS"><img src="images/css.png" alt="CSS"><span>CSS</span></div>
+    <div class="skill-card" data-skill="JavaScript"><img src="images/javascript.png" alt="JavaScript"><span>JavaScript</span></div>
+    <div class="skill-card" data-skill="C++"><img src="images/c++.png" alt="C++"><span>C++</span></div>
+    <div class="skill-card" data-skill="DSA"><img src="images/dsa.png" alt="DSA"><span>DSA</span></div>
+    <div class="skill-card" data-skill="VS Code"><img src="images/vscode.jfif" alt="VS Code"><span>VS Code</span></div>
+    <div class="skill-card" data-skill="Chart.js"><img src="images/chartjs.png" alt="Chart.js"><span>Chart.js</span></div>
+    <div class="skill-card" data-skill="Tailwind CSS"><img src="images/tailwind.png" alt="Tailwind CSS"><span>Tailwind CSS</span></div>
+    <div class="skill-card" data-skill="BootStrap CSS"><img src="images/bootstrap.png" alt="BootStrap CSS"><span>BootStrap CSS</span></div>
+    <div class="skill-card" data-skill="Python"><img src="images/python.jfif" alt="Python"><span>Python</span></div>
+    <div class="skill-card" data-skill="GitHub"><img src="images/github.png" alt="GitHub"><span>GitHub</span></div>
+    <div class="skill-card" data-skill="TeamWork"><img src="images/teamwork.png" alt="TeamWork"><span>TeamWork</span></div>
+    <div class="skill-card" data-skill="Problem Solving"><img src="images/problemsolving.png" alt="Problem solving"><span>Problem solving</span></div>
+    <div class="skill-card" data-skill="Communication"><img src="images/communication.png" alt="Communication"><span>Communication</span></div>
+    <div class="skill-card" data-skill="Collaboration"><img src="images/collaboration.png" alt="Collaboration"><span>Collaboration</span></div>
+    <div class="skill-card" data-skill="QuickLearner"><img src="images/quicklearner.jfif" alt="Quick Learner"><span>Quick Learner</span></div>
+    <div class="skill-card" data-skill="ContinuousLearning"><img src="images/continuouslearning.png" alt="continuouslearning"><span>Continuous Learning</span></div>
+    <div class="skill-card" data-skill="Git"><img src="images/git.png" alt="Git"><span>Git</span></div>
+    <div class="skill-card" data-skill="Listening"><img src="images/listening.png" alt="listening"><span>Listening</span></div>
+    <div class="skill-card" data-skill="nodejs"><img src="images/nodejs.png" alt="nodejs"><span>node.js</span></div>
+    <div class="skill-card" data-skill="express js"><img src="images/express.png" alt="express js"><span>Express js</span></div>
+    <div class="skill-card" data-skill="AI"><img src="images/ai.jfif" alt="AI"><span>AI</span></div>
+    <div class="skill-card" data-skill="mongodb"><img src="images/mongodb.jfif" alt="mongodb"><span>MongoDB</span></div>
+    <div class="skill-card" data-skill="ML"><img src="images/ml.png" alt="ML"><span>ML</span></div>
+
+  </div>
 </section>
 
-
-    <!--Resume section-->
-    <section id="resume">
-        <h2>Resume</h2>
-        <p>Download my resume for more details<img src="download.svg" alt="downlaod" height="30" width="30"></p><br>
-        <a href="Barkharesume.pdf" download class="resume-btn">Download Resume(PDF)</a>
-    </section>
-    <!--Skills Section-->
-    <section id="skills">
-        <h2>Skills</h2>
-        <div class="skills-container">
-            <div class="skill-card">
-                <img src="dsa.png" alt="DSA">
-                <p>Data Structures & Algorithms</p>
-            </div>
-            <div class="skill-card">
-                <img src="c++.png" alt="C++">
-                <p>C++</p>
-            </div>
-            <div class="skill-card">
-                <img src="html5-brands-solid.svg" alt="HTML">
-                <p>HTML</p>
-            </div>
-            <div class="skill-card">
-                <img src="css3-alt-brands-solid.svg" alt="CSS">
-                <p>CSS</p>
-            </div>
-            <div class="skill-card">
-                <img src="js-brands-solid.svg" alt="JavaScript">
-                <p>JavaScript</p>
-            </div>
-            <div class="skill-card">
-                <img src="python-brands-solid.svg" alt="Python">
-                <p>Python</p>
-            </div>
-            <div class="skill-card">
-                <img src="ai.jfif" alt="AI">
-                <p>Artificial Intelligence</p>
-            </div>
-            <div class="skill-card">
-                <img src="webdev.png" alt="Web Development">
-                <p>Web Development</p>
-            </div>
-            <div class="skill-card">
-                <img src="problemsolving.png" alt="Problem Solving">
-                <p>Problem Solving</p>
-            </div>
-            <div class="skill-card">
-                <img src="communication.png" alt="Communication">
-                <p>Communication</p>
-            </div>
-            <div class="skill-card">
-                <img src="teamwork.png" alt="Team Work">
-                <p>Team Work</p>
-            </div>
-            <div class="skill-card">
-                <img src="listening.png" alt="Listening">
-                <p>Listening</p>
-            </div>
-            <div class="skill-card">
-                <img src="quicklearner.jfif" alt="Quick Learner">
-                <p>Quick Learner</p>
-            </div>
-            <div class="skill-card">
-                <img src="collaboration.png" alt="Collaboration">
-                <p>Collaboration</p>
-            </div>
-            <div class="skill-card">
-                <img src="continuouslearning.png" alt="Continuous Learning">
-                <p>Continuous Learning</p>
-            </div>
+<!-- Contact Us -->
+ <section id="contactme">
+ <div class="contactus-form-container">
+  <div class="container">
+    <h1 class="contactus-heading">Contact Me</h1>
+    <h3 class="contactus-sub-heading">Questions,thoughts or just want to say hello?</h3>
+    <div class="contactus-form-container">
+      <form action="thanks.html" class="form">
+        <div class="formfield-container">
+          <input class="formfield" type="text" id=""placeholder="Enter your name">
+          <input class="formfield" type="text" id=""placeholder="Enter your email">
+          <input class="formfield" type="text" id=""placeholder="Enter your subject">
+          <textarea name="message" id="" cols="30" rows="5" class="formfield formfield-textarea" placeholder="Enter your message"></textarea> 
         </div>
-    </section>
-    
-  <!-- Contact Section -->
-<section id="contact">
-    <h2 class="section-title">Contact Me</h2>
-    <div class="contact-container">
-        <form action="thanks.html" method="post">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" placeholder="Enter your name" required>
-
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" placeholder="Enter your email" required>
-
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" placeholder="Enter your message" required></textarea>
-
-            <button type="submit">Submit</button>
-        </form>
+        <div >
+          <button type="submit" class="btn-pink" id="submit-btn">Send Message<i class=" submit-icon fa-solid fa-paper-plane"></i></button>
+        </div>
+      </form>
     </div>
-</section>
-    <footer>
-        <div class="footer">
-            <p>&copy; 2022 Barkha</p>
+  </div>
+ </div>
+ </section>
+<!-- Footer Section -->
+ <footer>
+  <div class="container">
+    <div class="footer-wrapper">
+      <div class="footer-faded-text">Barkha</div>
+      <div class="link-wrapper">
+        <div>
+          <a href="#projects">Projects</a>
         </div>
-    </footer>
-    
+        <div>
+          <a href="#skills">Skills</a>
+        </div>
+        <div>
+          <a href="#contactme">Contact Me</a>
+        </div>
+      </div>
+      <div class="icon-wrapper">
+        <a href="https://www.linkedin.com/in/barkhathakkar/"></a><i class="fa-brands fa-linkedin"></i>
+        <a href="https://github.com/Coderbarkha"></a><i class="fa-brands fa-github"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-solid fa-envelope"></i>
+      </div>
+    </div>
+  </div>
+ </footer>
+  </div>
+
+  <!-- JavaScript -->
+   <!-- Typed.js Library -->
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+   <script>
+   var typeData=new Typed(".role",{
+    strings:[
+      "Coder",
+      "Developer",
+      "C++ Programmer",
+      "Web Developer",
+      "DSA Enthusiast",
+      "Problem Solver",
+      "Frontend Developer"
+    ],
+    loop:true,
+    typeSpeed:100,
+    backSpeed:80,
+    backDelay:1000,
+   });
+   </script>
 </body>
 </html>
